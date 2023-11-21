@@ -5,7 +5,8 @@ const fs = require('fs');
 const app = express();
 const port = 3005;
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
+app.use(express.static(path.join(__dirname + "/public")));
 
 app.set('views', './views');
 app.set('view engine', 'html');
