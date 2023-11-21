@@ -1,0 +1,34 @@
+div {
+    margin: 5px;
+    justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+div h3{
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+div .para{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div .para p{
+    font-size: 15px;
+}
+
+/* div .para h4{} */
+
+div .para img{
+    height: 150px;
+    width: 200px;
+}
+
+div .para span{
+    font-size: 12px;
+}
